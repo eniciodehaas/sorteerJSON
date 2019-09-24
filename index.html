@@ -9,16 +9,21 @@
 </head>
 <body>
     <header class="header">
-    <h1 class="header__titel">Een selectie van boeken</h1>
+    <h1 class="header__titel">Een lijst met boeken</h1>
     <select id="kenmerk" class="header__dropdown">
         <option value="titel">titel</option>
         <option value="auteur">auteur(s)</option>
-        <option value="uitgave">datum uitgave</option>
+        <option value="jsDatum">datum uitgave</option>
         <option value="paginas">aantal bladzijdes</option>
         <option value="taal">taal</option>
         <option value="uitgever">uitgever</option>
         <option value="prijs">prijs</option>
     </select>
+
+    <!-- radiobuttons oplopend / aflopend -->
+    <label><input class="header__radio" type="radio" name="oplopend" value="1" checked> oplopend</label>
+    <label><input class="header__radio" type="radio" name="oplopend" value="-1"> aflopend</label>
+
     </header>
     <div id="uitvoer"></div>
     <script src="sorteer.js"></script>

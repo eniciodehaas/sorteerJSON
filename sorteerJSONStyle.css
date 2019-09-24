@@ -20,6 +20,10 @@ body {
     margin: 1.5em 0;
 }
 
+.header__radio {
+    margin-left: 1.5em;
+}
+
 .boeken {
     border-collapse: collapse;
 }
